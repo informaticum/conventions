@@ -28,6 +28,6 @@
     
     Indentation size: [2]
 
-"Grammar Constaints":
+"Grammar Constraints":
 
     [x] Use inferred grammar in absence of DTD/Schema

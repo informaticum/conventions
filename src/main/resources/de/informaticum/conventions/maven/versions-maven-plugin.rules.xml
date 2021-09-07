@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ruleset xmlns="http://mojo.codehaus.org/versions-maven-plugin/rule/2.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://mojo.codehaus.org/versions-maven-plugin/rule/2.0.0 http://www.mojohaus.org/versions-maven-plugin/xsd/rule-2.0.0.xsd"
+         comparisonMethod="maven">
+
+  <!-- Generally, ignore alpha and beta versions, release candidates, milestones, and early accessibles! -->
+  <ignoreVersions>
+    <!-- For those who are new to regular expressions; This is how to read:
+     !                             Use case-insensitive character notation in the following word characters
+     !                             | Any number of any character
+     !                             | |     Any of the delimiters (hyphen, underline, dot)
+     !                             | |     |                   Any of the key phrases (alpha, beta, rc, m, ea)
+     !                             | |     |                   |      Optionally, any of the delimiters (hyphen, underline, dot)
+     !                             | |     |                   |      |  Optionally, any single digit
+     !                             | |     |                   |      |  | Any number of any character
+     !                             | |     |                   |      |  | |
+     !                             v v     v                   v      v  v v            !-->
+    <ignoreVersion type="regex">(?i).*[-_\.](alpha|beta|rc|m|ea)[-_\.]?\d?.*</ignoreVersion>
+  </ignoreVersions>
+
+  <!-- You need some more ignoring? Read this:
+   !   - https://www.mojohaus.org/versions-maven-plugin/version-rules.html
+   !   - https://www.mojohaus.org/versions-maven-plugin/rule.html
+   !   - https://stackoverflow.com/a/48715568
+   !-->
+
+</ruleset>

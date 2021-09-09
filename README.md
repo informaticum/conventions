@@ -16,6 +16,13 @@ In order to ...
 Avowedly, good code style is a subjective matter and the perception of beauty is in the eye of the beholder.
 However, these are the rules which we think are fine for us:
 
+## Testing
+
+* We prefer [JUnit 5](https://junit.org/junit5/) over [JUnit 4](https://junit.org/junit4/)
+* We prefer [AssertJ](https://assertj.github.io/doc/) over [Hamcrest](http://hamcrest.org/JavaHamcrest/)
+* We differ between [unit tests](https://maven.apache.org/surefire/maven-surefire-plugin/index.html) and [integration tests](https://maven.apache.org/surefire/maven-failsafe-plugin/index.html)
+* No test should be `@Ignore`d without a very good reason
+
 ## [Eclipse](https://www.eclipse.org/) ([June 2021](https://projects.eclipse.org/releases/2021-06))
 
 * Window -> Preference -> General -> Editors -> Structured Text Editors -> Task Tags
@@ -59,8 +66,6 @@ As long as there are no good counter-arguments, all projects/project POM files s
 * enforce [a certain Maven version](https://maven.apache.org/enforcer/enforcer-rules/requireMavenVersion.html), [a certain Java JDK version](https://maven.apache.org/enforcer/enforcer-rules/requireJavaVersion.html), and [that all plugins have a version defined](https://maven.apache.org/enforcer/enforcer-rules/requirePluginVersions.html)
 * [`install`/`deploy` a flattened version of the POM file](https://www.mojohaus.org/flatten-maven-plugin/usage.html) instead of the original POM file
     * [note the available flatten modes](https://www.mojohaus.org/flatten-maven-plugin/flatten-mojo.html#flattenMode)
-* differ between [unit tests](https://maven.apache.org/surefire/maven-surefire-plugin/index.html) and [integration tests](https://maven.apache.org/surefire/maven-failsafe-plugin/index.html)
-    * and no test should be `@Ignore`d
 * build without any Maven WARNING (yep, we often fail but try our best)
 
 #### Version Update Checks

@@ -108,15 +108,15 @@
             [x] Make inner classes static where possible
             [x] Replace String concatenation by StringBuilder
             [x] Use String.replace() instead of String.replaceAll() when possible
-            [x] String.isBlank rather than String.strip().isEmpty()
-            [x] Usy lazy logical operator
-            [x] valueOf rather than instantiation
+            [x] String.isBlank() rather than String.strip().isEmpty()
+            [x] Use lazy logical operator
+            [x] valueOf() rather than instantiation
             [x] Primitive comparison
             [x] Primitive parsing
             [x] Primitive serialization
-            [x] Primitive type rather thena wrapper class
+            [x] Primitive type rather than wrapper class
             [x] Precompile reused regular expressions
-            [x] Remobve redundant string creation
+            [x] Remove redundant string creation
             [x] Prefer boolean literals
     
         "Source Fixing" -> "Code standardization"
@@ -145,7 +145,7 @@
             [x] Initialize collection at creation
             [x] Initialize map at creation
             [x] Remove overridden assignment
-            [ ] Remove redundatnt modifiers
+            [ ] Remove redundant modifiers
             [x] Raise embedded if into parent if
             [x] Remove redundant semicolons
             [x] Use implicit comparator when possible

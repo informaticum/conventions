@@ -10,4 +10,4 @@
 
 - - -
 
-¹ For `[Import...]` use the [current ITBSG import order](./itbsg_java_code-style_organize_imports.importorder)
+¹ For `[Import...]` use the [current Informaticum import order](./informaticum_java_code-style_organize_imports.importorder)

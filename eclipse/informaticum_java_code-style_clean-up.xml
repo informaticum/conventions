@@ -31,6 +31,7 @@
         <setting id="cleanup.convert_to_switch_expressions" value="true"/>
         <setting id="cleanup.correct_indentation" value="true"/>
         <setting id="cleanup.double_negation" value="false"/>
+        <setting id="cleanup.do_while_rather_than_while" value="false"/>
         <setting id="cleanup.else_if" value="true"/>
         <setting id="cleanup.embedded_if" value="true"/>
         <setting id="cleanup.evaluate_nullable" value="true"/>
@@ -104,7 +105,10 @@
         <setting id="cleanup.standard_comparison" value="true"/>
         <setting id="cleanup.static_inner_class" value="true"/>
         <setting id="cleanup.strictly_equal_or_different" value="false"/>
+        <setting id="cleanup.stringbuffer_to_stringbuilder" value="false"/>
+        <setting id="cleanup.stringbuilder_for_local_vars" value="false"/>
         <setting id="cleanup.stringbuilder" value="true"/>
+        <setting id="cleanup.stringconcat_to_textblock" value="false"/>
         <setting id="cleanup.substring" value="true"/>
         <setting id="cleanup.switch" value="true"/>
         <setting id="cleanup.system_property_boolean" value="true"/>

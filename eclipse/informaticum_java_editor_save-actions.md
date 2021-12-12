@@ -42,7 +42,7 @@
             [x] Simplify lambda expression and method reference syntax
     
         "Duplicate code" -> "Duplicate code"
-            [x] Replace (X && Y) || (X && Z) by (X && (Y || Z))
+            [ ] Factorize operands
             [x] Replace (X && Y) || (!X && Z) by X ? Y : Z
             [ ] Use '==' or '^' on booleans
             [x] Merge conditions of if/else if/else that have the same blocks
@@ -54,6 +54,9 @@
     
         "Java Feature" -> "Java 16"
             [x] Pattern matching for instanceof
+    
+        "Java Feature" -> "Java 15"
+            [ ] Convert String concatenation to Text Block
     
         "Java Feature" -> "Java 14"
             [x] Convert to switch expression
@@ -83,13 +86,13 @@
             [ ] Use Autoboxing
             [ ] Use Unboxing
     
-        "Member access" -> "Non static accesses"
+        "Member Accesses" -> "Non static accesses"
             [x] Use 'this' qualifier for field accesses
                 (o) Always
             [x] Use 'this' qualifier for method accesses
                 (o) Always
     
-        "Member access" -> "Static accesses"
+        "Member Accesses" -> "Static accesses"
             [x] Use declaring class as qualifier
                 [ ] Qualify field accesses
                 [ ] Qualify method accesses
@@ -102,7 +105,7 @@
                     [x] Implementations of interface methods (1.6 or higher)
                 [x] '@Deprecated'
     
-        "Optimization" -> "Optimization"
+        "Performance" -> "Performance"
             [ ] Convert fields into local variables if the use is only local
             [x] Exit loop earlier
             [x] Make inner classes static where possible
@@ -116,6 +119,8 @@
             [x] Primitive serialization
             [x] Primitive type rather than wrapper class
             [x] Precompile reused regular expressions
+            [ ] Use StringBuilder instead of StringBuffer
+                [ ] Only for local variables
             [x] Remove redundant string creation
             [x] Prefer boolean literals
     

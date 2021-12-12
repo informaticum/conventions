@@ -1,9 +1,9 @@
 #Organize Import Order
-#Thu Sep 02 22:22:45 CEST 2021
 0=java
 1=javax
 2=com
 3=de
 4=de.informaticum
 5=de.itbsg
-6=org
+6=io
+7=org

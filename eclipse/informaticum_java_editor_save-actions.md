@@ -42,7 +42,7 @@
             [x] Simplify lambda expression and method reference syntax
     
         "Duplicate code" -> "Duplicate code"
-            [ ] Factorize operands
+            [x] Factorize operands
             [x] Replace (X && Y) || (!X && Z) by X ? Y : Z
             [ ] Use '==' or '^' on booleans
             [x] Merge conditions of if/else if/else that have the same blocks
@@ -56,7 +56,7 @@
             [x] Pattern matching for instanceof
     
         "Java Feature" -> "Java 15"
-            [ ] Convert String concatenation to Text Block
+            [x] Convert String concatenation to Text Block
     
         "Java Feature" -> "Java 14"
             [x] Convert to switch expression
@@ -119,7 +119,7 @@
             [x] Primitive serialization
             [x] Primitive type rather than wrapper class
             [x] Precompile reused regular expressions
-            [ ] Use StringBuilder instead of StringBuffer
+            [x] Use StringBuilder instead of StringBuffer
                 [ ] Only for local variables
             [x] Remove redundant string creation
             [x] Prefer boolean literals
@@ -142,8 +142,8 @@
             [x] Evaluate without null check
             [x] Push down negation
             [x] Boolean value rather than comparison
-            [ ] Avoid double negation
-            [ ] Remove redundant comparison statement
+            [x] Avoid double negation
+            [x] Remove redundant comparison statement
             [x] Remove redundant super() call in constructor
             [ ] Remove unreachable block
             [x] Operate on Maps directly

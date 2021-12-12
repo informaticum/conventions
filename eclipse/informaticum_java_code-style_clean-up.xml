@@ -23,15 +23,15 @@
         <setting id="cleanup.break_loop" value="true"/>
         <setting id="cleanup.collection_cloning" value="true"/>
         <setting id="cleanup.comparing_on_criteria" value="true"/>
-        <setting id="cleanup.comparison_statement" value="false"/>
+        <setting id="cleanup.comparison_statement" value="true"/>
         <setting id="cleanup.controlflow_merge" value="true"/>
         <setting id="cleanup.convert_functional_interfaces" value="true"/>
         <setting id="cleanup.convert_to_enhanced_for_loop_if_loop_var_used" value="false"/>
         <setting id="cleanup.convert_to_enhanced_for_loop" value="true"/>
         <setting id="cleanup.convert_to_switch_expressions" value="true"/>
         <setting id="cleanup.correct_indentation" value="true"/>
-        <setting id="cleanup.double_negation" value="false"/>
-        <setting id="cleanup.do_while_rather_than_while" value="false"/>
+        <setting id="cleanup.double_negation" value="true"/>
+        <setting id="cleanup.do_while_rather_than_while" value="true"/>
         <setting id="cleanup.else_if" value="true"/>
         <setting id="cleanup.embedded_if" value="true"/>
         <setting id="cleanup.evaluate_nullable" value="true"/>
@@ -52,7 +52,7 @@
         <setting id="cleanup.make_type_abstract_if_missing_method" value="false"/>
         <setting id="cleanup.make_variable_declarations_final" value="true"/>
         <setting id="cleanup.map_cloning" value="true"/>
-        <setting id="cleanup.merge_conditional_blocks" value="false"/>
+        <setting id="cleanup.merge_conditional_blocks" value="true"/>
         <setting id="cleanup.multi_catch" value="true"/>
         <setting id="cleanup.never_use_blocks" value="false"/>
         <setting id="cleanup.never_use_parentheses_in_expressions" value="false"/>
@@ -80,7 +80,7 @@
         <setting id="cleanup.qualify_static_method_accesses_with_declaring_class" value="false"/>
         <setting id="cleanup.reduce_indentation" value="false"/>
         <setting id="cleanup.redundant_comparator" value="true"/>
-        <setting id="cleanup.redundant_falling_through_block_end" value="true"/>
+        <setting id="cleanup.redundant_falling_through_block_end" value="false"/>
         <setting id="cleanup.remove_private_constructors" value="true"/>
         <setting id="cleanup.remove_redundant_modifiers" value="false"/>
         <setting id="cleanup.remove_redundant_semicolons" value="true"/>
@@ -105,10 +105,10 @@
         <setting id="cleanup.standard_comparison" value="true"/>
         <setting id="cleanup.static_inner_class" value="true"/>
         <setting id="cleanup.strictly_equal_or_different" value="false"/>
-        <setting id="cleanup.stringbuffer_to_stringbuilder" value="false"/>
+        <setting id="cleanup.stringbuffer_to_stringbuilder" value="true"/>
         <setting id="cleanup.stringbuilder_for_local_vars" value="false"/>
         <setting id="cleanup.stringbuilder" value="true"/>
-        <setting id="cleanup.stringconcat_to_textblock" value="false"/>
+        <setting id="cleanup.stringconcat_to_textblock" value="true"/>
         <setting id="cleanup.substring" value="true"/>
         <setting id="cleanup.switch" value="true"/>
         <setting id="cleanup.system_property_boolean" value="true"/>

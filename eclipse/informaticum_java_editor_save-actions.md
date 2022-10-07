@@ -132,6 +132,7 @@
         "Unnecessary Code" -> "Unused code"
             [ ] Remove unused imports
             [ ] Remove unused private members
+            [ ] Remove unused private method parameter
             [ ] Remove unused local variables
     
         "Unnecessary Code" -> "Unnecessary code"
@@ -150,6 +151,7 @@
             [x] Initialize collection at creation
             [x] Initialize map at creation
             [x] Remove overridden assignment
+                [x] Move declaration if necessary
             [ ] Remove redundant modifiers
             [x] Raise embedded if into parent if
             [x] Remove redundant semicolons

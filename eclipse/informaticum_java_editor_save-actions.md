@@ -82,7 +82,7 @@
     
         "Java Feature" -> "Java 5"
             [x] Convert to enhanced 'for' loops
-            [ ] Only if loop variable used
+                [ ] Only if loop variable used
             [ ] Use Autoboxing
             [ ] Use Unboxing
     

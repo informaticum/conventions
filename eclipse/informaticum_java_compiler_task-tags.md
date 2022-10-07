@@ -1,6 +1,4 @@
-### Eclipse -> Window -> Preferences -> General -> Editors -> Structured Text Editors -> Task Tags
-
-    [x] Enable searching for Task Tags
+### Eclipse -> Window -> Preferences -> Java -> Compiler -> Task Tags
 
         Tag   | Priority
         ------+---------
@@ -10,3 +8,5 @@
         NOTE  | Low
         TODO  | Normal
         XXX   | Normal
+
+    [ ] Case sensitive task tag names

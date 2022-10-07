@@ -16,9 +16,9 @@
     
     [ ] Align final bracket in multi-line element tags
     
-    [x] Preserv whitespace in tags with PCDATA content
+    [x] Preserve whitespace in tags with PCDATA content
     
-    [ ] Clear blank lines
+    [ ] Clear all blank lines
     
     [ ] Format comments
     

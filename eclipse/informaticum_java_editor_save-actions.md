@@ -17,7 +17,7 @@
             [ ] Sort members
     
         "Code Style" -> "Control statements"
-            [x] Use block in if/for/do statements
+            [x] Use block in if/while/for/do statements
                 (o) Always
             [x] Combine nested 'if' statement in 'else' block to 'else if'
             [ ] Reduce indentation when possible
@@ -32,7 +32,7 @@
             [x] Use instanceof keyword instead of Clas.isInstance()
     
         "Code Style" -> "Number literals"
-            [x] Use uppercase for long iteral suffix
+            [x] Use uppercase for long literal suffix
     
         "Code Style" -> "Variable declarations"
             [x] Use modifier 'final' where possible
@@ -75,13 +75,13 @@
             [x] Use Multi-catch
             [x] Use diamond operator
             [x] Use Object.hash()
-            [x] Use Object.equals() in the queals method implementation
+            [x] Use Object.equals() in the equals method implementation
             [x] Replace system property with constant
                 [x] File separator  [x] Path separator    [x] Line separator
-                [x] File encoding   [x] Boolean property
+                [x] File encoding   [x] Boxed type property
     
         "Java Feature" -> "Java 5"
-            [x] Convert 'for' loops to enhanced
+            [x] Convert to enhanced 'for' loops
             [ ] Only if loop variable used
             [ ] Use Autoboxing
             [ ] Use Unboxing

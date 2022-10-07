@@ -1,4 +1,4 @@
-### Eclipse -> XML -> XML Files
+### Eclipse -> Window -> Preferences -> XML -> XML Files
 
 "Creating files":
 

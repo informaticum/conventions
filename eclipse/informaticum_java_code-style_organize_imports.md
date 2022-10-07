@@ -1,4 +1,4 @@
-### Eclipse -> Java -> Code Style -> Organize Imports
+### Eclipse -> Window -> Preferences -> Java -> Code Style -> Organize Imports
 
     Define the sorting order of import statements:  [Import...]¹
     

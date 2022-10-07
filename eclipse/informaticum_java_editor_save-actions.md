@@ -1,4 +1,4 @@
-### Eclipse -> Java -> Editor -> Save Actions
+### Eclipse -> Window -> Preferences -> Java -> Editor -> Save Actions
 
     [x] Perform the selected actions on save
         [x] Format source code

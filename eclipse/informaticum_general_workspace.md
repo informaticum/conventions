@@ -1,4 +1,4 @@
-### Eclipse -> General -> Workspace
+### Eclipse -> Window -> Preferences -> General -> Workspace
 
 Text file encoding:
 
